@@ -14,7 +14,7 @@ const Post = ({ post, deletePost, user}) => {
                     <Card.Title className="p=2">{post.name}
                     </Card.Title>
                     <Button id='cardButton' variant='secondary'>
-                        <Link to={`/item/${post._id}`}>Details</Link>
+                        <Link to={`/post/${post._id}`}>Details</Link>
                     </Button>
                 </Card.Body>
             </Card>

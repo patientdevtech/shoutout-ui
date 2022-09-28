@@ -1,18 +1,17 @@
-// import Items from '../components/Item/Items';
+// import Posts from '../components/Post/Posts';
 // import {Link} from 'react-router-dom'
-// import Logo7 from '../assets/images/Logo7.png';
-// import Button from 'react-bootstrap/Button';
+// import Carousel from 'react-bootstrap/Carousel'
 // import Container from 'react-bootstrap/Container';
 // import Row from 'react-bootstrap/Row';
 // import Col from 'react-bootstrap/Col';
-// import Carousel  from 'react-bootstrap/Carousel';
+// import Button from 'react-bootstrap/Button';
 
-// const Home = ({ items, updateItemState, user }) => {
+// const Home = ({ posts, updatePostState, user }) => {
 
 //  if(user){
 //   return (
 //     <div>
-//       <Items items={items} updateItemState={updateItemState} user={user} />
+//       <Posts posts={posts} updatePostState={updatePostState} user={user} />
 //     </div>
 //   )
 // }
@@ -21,14 +20,15 @@
 //       <Container fluid>
 //        <Row className='p-4'>
 //           <Carousel>
-//             {items.map((item) => {
+//             {posts.map((post) => {
 //               return(
-//               <Carousel.Item>
-//                 <img id='plantCarousel' className='d-block' src={item.images} alt='slide'/>
-//               </Carousel.Item>)
+//               <Carousel.Post>
+//                 <img id='carouselImage' className='d-block' src={post.images} alt='slide'/>
+//               </Carousel.Post>)
 //             })}
 //           </Carousel>
-//         </Row><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+//         </Row>
+//             <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 //         <Row id='bottom' className='fixed-bottom'>
 //           <Col className='d-grid my-auto justify-content-center'>
 //             <Row className='p-5 '>
@@ -47,7 +47,7 @@
 //             </Row>
 //           </Col>
 //           <Col>
-//           <img id='logo' src={Logo7}  alt='logo'/>
+//           {/* <img id='logo' src={Logo7}  alt='logo'/> */}
 //           </Col>
 //         </Row>
 //       </Container>

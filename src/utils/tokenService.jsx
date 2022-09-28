@@ -20,7 +20,7 @@ function getUserFromToken () {
 }
 
 function removeToken() {
-    localStorage.removeItem('token')
+    localStorage.removePost('token')
 }
 
 const tokenServiceExports = {
